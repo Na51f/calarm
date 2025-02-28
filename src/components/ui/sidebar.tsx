@@ -11,7 +11,12 @@ const SidebarContext = createContext<{
   setOpen: React.Dispatch<React.SetStateAction<boolean>>
 }>({
   open: true,
-  setOpen: () => {},
+  setOpen: (value) => {
+    console.warn("SidebarContext.setOpen was called before being initialized by SidebarProvider");
+    // This is a placeholder implementation that will be replaced
+    // when the actual context provider is used
+    return typeof value === "function" ? value(true) : value;
+  },
 })
 
 export function SidebarProvider({
