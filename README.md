@@ -1,11 +1,14 @@
 # Calarm
-This is a calendar
+This is a calendar and alarm combo. Set alarms as calendar events and vice versa.
 
-## Create T3 App
+## Why?
+Imagine you have a seminar for 'The Super Duper Tech Bros Night' and you were invited to this event through a Google Calendar invite email. You accept the invitation email and poof it's on your calendar, like it normally would on virtually any calendar. Usually you can set the event to send you a notification before the event but what if you don't hear the notification? You totally forgot and missed the seminar! 
+This is why Calarm exists. One thing mostly missing from any calendar app is the option to turn an event into an alarm so that you are alerted until you dismiss the notification and on the other hand, have all your alarms show up on your calendar. 
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## TODO
+- [ ] Finish this todo list
 
-### Technologies
+## Technologies
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
@@ -14,7 +17,7 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-### Learn More
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
 To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
 
@@ -26,3 +29,4 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
