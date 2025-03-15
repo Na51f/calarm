@@ -9,6 +9,9 @@ This is why Calarm exists. One thing mostly missing from any calendar app is the
 - [ ] Add and remove items on alarm.
 - [ ] Make Alarm times show up on calendar. (For the next two weeks or however long the user sets)
 - [ ] Add and remove events to the calendar.
+- [ ] Add Google account login
+- [ ] Sync Google Calendars
+- [ ] Add GitHub login
 
 # T3 Stack
 
